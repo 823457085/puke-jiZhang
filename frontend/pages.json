@@ -1,0 +1,66 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "记牌官"
+      }
+    },
+    {
+      "path": "pages/room/room",
+      "style": {
+        "navigationBarTitleText": "房间"
+      }
+    },
+    {
+      "path": "pages/create-room/create-room",
+      "style": {
+        "navigationBarTitleText": "创建房间"
+      }
+    },
+    {
+      "path": "pages/join-room/join-room",
+      "style": {
+        "navigationBarTitleText": "加入房间"
+      }
+    },
+    {
+      "path": "pages/settle/settle",
+      "style": {
+        "navigationBarTitleText": "结算"
+      }
+    },
+    {
+      "path": "pages/mine/mine",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#64748b",
+    "selectedColor": "#2563eb",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tab-home.png",
+        "selectedIconPath": "static/tab-home-active.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "static/tab-mine.png",
+        "selectedIconPath": "static/tab-mine-active.png"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "记牌官",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#f8fafc"
+  }
+}
